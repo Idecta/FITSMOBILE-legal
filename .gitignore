@@ -1,0 +1,20 @@
+# Todo lo no-publicable vive bajo NoGit/
+NoGit/
+
+# Tooling interno (se queda en raíz por funcionalidad de Claude Code, pero NO se pushea)
+.claude/
+.mcp.json
+
+# Patrones de seguridad por si algo se cuela fuera de NoGit/
+*.private.md
+*.secrets.md
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/
